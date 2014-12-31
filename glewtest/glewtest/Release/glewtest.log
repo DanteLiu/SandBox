@@ -1,0 +1,17 @@
+﻿已經開始建置於 2014/12/20 下午 08:00:08。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\JPeng-Liu\documents\visual studio 2012\Projects\glewtest\glewtest\glewtest.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\glewtest.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\glewtest.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt glewtest.cpp
+         glewtest.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JPeng-Liu\documents\visual studio 2012\Projects\glewtest\Release\glewtest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JPeng-Liu\documents\visual studio 2012\Projects\glewtest\Release\glewtest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JPeng-Liu\documents\visual studio 2012\Projects\glewtest\Release\glewtest.lib" /MACHINE:X86 /SAFESEH Release\glewtest.obj
+         Release\stdafx.obj
+     1>glewtest.obj : error LNK2001: 無法解析的外部符號 __imp__glewInit@0
+     1>C:\Users\JPeng-Liu\documents\visual studio 2012\Projects\glewtest\Release\glewtest.exe : fatal error LNK1120: 1 個無法解析的外部符號
+     1>專案 "C:\Users\JPeng-Liu\documents\visual studio 2012\Projects\glewtest\glewtest\glewtest.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.81
